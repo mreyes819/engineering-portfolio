@@ -5,24 +5,24 @@ import Link from "gatsby-link"
 export default () =>
 <div>
   <Container>
-    <h1> Languages and Technologies I am familiar with </h1>
+    <h1> is familiar with... </h1>
   </Container>
   <Container>
     <div style={{display: "flex", "flex-wrap": "wrap", "justify-content": "center"}}>
 
       <div style={{display: "flex", "flex-wrap": "wrap", "justify-content": "center"}}>
-        <div style={{margin: "25px", "min-width": "300px"}}>
+        <div style={{margin: "25px", "min-width": "260px"}}>
           <h2> Front-End </h2>
           <p><a href="https://github.com/mttrys/JavaScript30/blob/a757827c1512ec245f81cbccd8bb7c013170ee4c/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-START.html#L99-L123"> JavaScript </a></p>
           <p><a href="https://github.com/mttrys/JavaScript30/commits/master"> HTML5 </a></p>
           <p><a href="https://github.com/mttrys/JavaScript30/commits/master"> CSS3 </a></p>
           <p><a href="https://github.com/mttrys/JavaScript30/commits/master"> jQuery </a></p>
-          <p><a href="https://github.com/mttrys/reactnd-project-myreads-starter/tree/master/src/components"> React </a></p>
+          <p><a href="https://github.com/mttrys/reactnd-project-myreads-starter/tree/master/src"> React </a></p>
           <p> Redux </p>
         </div>
 
 
-        <div style={{margin: "25px", "min-width": "300px"}}>
+        <div style={{margin: "25px", "min-width": "260px"}}>
           <h2>Back-End</h2>
           <p>Node</p>
           <p>Express</p>
@@ -33,10 +33,12 @@ export default () =>
       </div>
 
       <div style={{display: "flex", "flex-wrap": "wrap", "justify-content": "center"}}>
-        <div style={{margin: "25px", "min-width": "300px"}}>
+        <div style={{margin: "25px", "min-width": "260px"}}>
           <h2>Tools</h2>
           <p> Git </p>
           <p><a href="https://github.com/mttrys"> Github </a></p>
+          <p> Chrome DevTools </p>
+          <p> command line and env vars </p>
           <p> Selenium </p>
           <p> Python 2.7 </p>
           <p> BeautifulSoup </p>
@@ -45,11 +47,13 @@ export default () =>
           <p> Jest </p>
         </div>
 
-        <div style={{margin: "25px", "min-width": "300px"}}>
+        <div style={{margin: "25px", "min-width": "260px"}}>
           <h2>CompSci Fundamentals</h2>
-          <p><a href="https://github.com/mttrys"> Data Structures & Algos </a></p>
-          <p><a href="https://github.com/mttrys"> Programming Paradigms </a></p>
-          <p><a href="https://github.com/mttrys"> Big-O </a></p>
+          <p><a href="https://github.com/mttrys/data-structures/tree/master/sprint-two/src"> Data Structures & Algos </a></p>
+          <p><a href="https://github.com/mttrys/data-structures/tree/master/sprint-one/src"> JavaScript Inheritance Patterns </a></p>
+          <p>Functional Programming</p>
+          <p><a href="https://github.com/mttrys/6ees6ees6ees/tree/master/src"> Object-Oriented Programming</a></p>
+          <p><a href="https://github.com/mttrys/data-structures/tree/master/sprint-two/src"> Big-O </a></p>
         </div>
       </div>
 
